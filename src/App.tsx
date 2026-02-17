@@ -20,8 +20,8 @@ import { GestureRecognizer, FilesetResolver, DrawingUtils } from "@mediapipe/tas
 const TOTAL_NUMBERED_PHOTOS = 31;
 
 const bodyPhotoPaths = [
-  '/photos/top.jpg',
-  ...Array.from({ length: TOTAL_NUMBERED_PHOTOS }, (_, i) => `/photos/${i + 1}.jpg`)
+  '/photos/top.jpeg',
+  ...Array.from({ length: TOTAL_NUMBERED_PHOTOS }, (_, i) => `/photos/${i + 1}.jpeg`)
 ];
 
 
@@ -34,7 +34,7 @@ const CONFIG = {
     green: '#2E7D32',
     white: '#FFFFFF',   
     warmLight: '#FFD54F',
-    lights: ['#FF0000', '#00FF00', '#0000FF', '#FFFF00'], // 彩灯
+    lights: ['#FF0000', '#00FF00', '#0000FF', '#FFFF00'],
     
     borders: ['#FFFAF0', '#F0E68C', '#E6E6FA', '#FFB6C1', '#98FB98', '#87CEFA', '#FFDAB9'],
    
